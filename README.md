@@ -41,9 +41,16 @@ This project involves setting up Active Directory, creating domain admin and use
 ## Join Client-1 to your domain (`mydomain.com`)
 - From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address (Already done).
 - From the Azure Portal, restart Client-1 (Already done).
-- Login to Client-1 as the original local admin (`labuser`) and join it to the domain (computer will restart).
+- Login to Client-1 as the original local admin (`labuser`) and <b>join</b> it to the domain (computer will restart).
+- <p align="center">
+  <img src="https://i.imgur.com/rqXWgw3.png" alt="Image 1" width="45%"/>  
+</p>
+
 - Login to the Domain Controller and verify Client-1 shows up in ADUC.
 - Create a new OU named “_CLIENTS” and drag Client-1 into there.
+<p align="center">
+  <img src="https://i.imgur.com/Ao49Q38.png" alt="Image 1" width="45%"/>  
+</p>
 
 **Finish the lab**, but do not delete the VMs in Azure. We will use them for upcoming labs.
 If you are done for the day and want to save money, simply “Stop”/turn off the VMs within the Azure Portal.
