@@ -66,6 +66,9 @@ If you are done for the day and want to save money, simply “Stop”/turn off t
 - Open system properties.
 - Click “Remote Desktop”.
 - Allow “domain users” access to remote desktop.
+<p align="center">
+  <img src="https://i.imgur.com/WU9QPfp.png" alt="Image 1" width="45%"/>  
+</p>
 - You can now log into Client-1 as a normal, non-administrative user now.
 - Normally, you’d want to do this with Group Policy that allows you to change MANY systems at once (maybe a future lab).
 
@@ -73,7 +76,17 @@ If you are done for the day and want to save money, simply “Stop”/turn off t
 - Login to DC-1 as `jane_admin`.
 - Open PowerShell ISE as an administrator.
 - Create a new file and paste the contents of the [script](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1) into it.
+<p align="center">
+  <img src="https://i.imgur.com/90jLFEk.png" alt="Image 1" width="45%"/>  
+</p>
 - Run the script and observe the accounts being created.
+<p align="center">
+  <img src="https://i.imgur.com/659xmHD.png" alt="Image 1" width="45%"/>  
+</p>
 - When finished, open ADUC and observe the accounts in the appropriate OU (_EMPLOYEES).
 - Attempt to log into Client-1 with one of the accounts (take note of the password in the script).
+<p align="center">
+  <img src="https://i.imgur.com/xQoSHVF.png" alt="Image 1" width="45%"/>  
+  <img src="https://i.imgur.com/1OVAHkD.png" alt="Image 1" width="45%"/>  
+</p>
 
