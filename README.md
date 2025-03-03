@@ -20,12 +20,23 @@ This project involves setting up Active Directory, creating domain admin and use
 </p>
 
 ## Create a Domain Admin user within the domain
-- In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”.
-- Create a new OU named “_ADMINS”.
+- In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES” and “_ADMINS”.
+<p align="center">
+  <img src="https://i.imgur.com/ZGOiKN2.png" alt="Image 1" width="45%"/>  
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/AsLUamo.png" alt="Image 1" width="45%"/>  
+</p>
 - Create a new employee named “Jane Doe” (same password) with the username of `jane_admin` / `Cyberlab123!`.
 - Add `jane_admin` to the “Domain Admins” Security Group.
+<p align="center">
+  <img src="https://i.imgur.com/wySBSJt.png" alt="Image 1" width="45%"/>  
+</p>
 - Log out / close the connection to DC-1 and log back in as `mydomain.com\jane_admin`.
 - Use `jane_admin` as your admin account from now on.
+<p align="center">
+  <img src="https://i.imgur.com/3sCjZaa.png" alt="Image 1" width="45%"/>  
+</p>
 
 ## Join Client-1 to your domain (`mydomain.com`)
 - From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address (Already done).
