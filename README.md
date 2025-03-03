@@ -1,3 +1,9 @@
+<p align="center">
+<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+</p>
+
+<h1>Active Directory Admin and User Management (Azure)</h1>
+This project involves setting up Active Directory, creating domain admin and user accounts, and managing access within a secure domain environment. The goal is to ensure proper user management and secure access across systems using Active Directory services.
 
 ## Login to DC-1 and install Active Directory Domain Services
 - Promote as a DC: Setup a new forest as `mydomain.com` (can be anything, just remember what it is).
