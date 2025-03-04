@@ -57,7 +57,6 @@ If you are done for the day and want to save money, simply “Stop”/turn off t
 
 ---
 
-# Part 2
 
 ## Turn on the DC-1 and Client-1 VMs in the Azure Portal if they are off.
 
