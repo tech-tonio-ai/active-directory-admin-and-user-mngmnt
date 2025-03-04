@@ -84,8 +84,12 @@ If you are done for the day and want to save money, simply “Stop”/turn off t
 </p>
 - When finished, open ADUC and observe the accounts in the appropriate OU (_EMPLOYEES).
 - Attempt to log into Client-1 with one of the accounts (take note of the password in the script).
+- We can use the user "cub.dem" to log into client-1.
 <p align="center">
-  <img src="https://i.imgur.com/xQoSHVF.png" alt="Image 1" width="45%"/>  
-  <img src="https://i.imgur.com/1OVAHkD.png" alt="Image 1" width="45%"/>  
+  <img src="https://i.imgur.com/xQoSHVF.png" alt="Image 1" width="45%"/>     
 </p>
+- Confirm by running CMD and typing the command "whoami"
 
+<p align="center">
+<img src="https://i.imgur.com/1OVAHkD.png" alt="Image 1" width="45%"/> 
+</p>
