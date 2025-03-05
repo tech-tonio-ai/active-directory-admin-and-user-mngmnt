@@ -74,7 +74,7 @@ If you are done for the day and want to save money, simply “Stop”/turn off t
 ## Create a list of additional users and attempt to log into Client-1 with one of the users
 - Login to DC-1 as `jane_admin`.
 - Open PowerShell ISE as an administrator.
-- Create a new file and paste the contents of the [script](https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1) into it.
+- Create a new file and paste the contents of the [script](https://github.com/tech-tonio-ai/create-users-ps/blob/main/create_users.ps1) into it.
 <p align="center">
   <img src="https://i.imgur.com/90jLFEk.png" alt="Image 1" width="45%"/>  
 </p>
