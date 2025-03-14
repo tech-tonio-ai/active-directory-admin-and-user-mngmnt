@@ -5,6 +5,17 @@
 <h1>Active Directory Admin and User Management (Azure)</h1>
 This project involves setting up Active Directory, creating domain admin and user accounts, and managing access within a secure domain environment. The goal is to ensure proper user management and secure access across systems using Active Directory services.
 
+<h2>Environments and Technologies Used</h2>
+
+- Microsoft Azure (Virtual Machines/Compute)
+- Remote Desktop
+- Active Directory Domain Services
+- CMD/PowerShell
+
+<h2>Operating Systems Used </h2>
+
+- Windows Server 2022
+- Windows 10 (21H2)
 
 
 ## Create a Domain Admin user within the domain
