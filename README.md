@@ -10,7 +10,7 @@ This project involves setting up Active Directory, creating domain admin and use
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
-- CMD/PowerShell
+- CMD/PowerShell ISE
 
 <h2>Operating Systems Used </h2>
 
