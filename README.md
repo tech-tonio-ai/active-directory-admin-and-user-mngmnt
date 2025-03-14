@@ -51,8 +51,6 @@ This project involves setting up Active Directory, creating domain admin and use
   <img src="https://i.imgur.com/Ao49Q38.png" alt="Image 1" width="45%"/>  
 </p>
 
-**Finish the lab**, but do not delete the VMs in Azure. We will use them for upcoming labs.
-If you are done for the day and want to save money, simply “Stop”/turn off the VMs within the Azure Portal.
 
 ---
 
