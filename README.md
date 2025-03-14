@@ -5,19 +5,7 @@
 <h1>Active Directory Admin and User Management (Azure)</h1>
 This project involves setting up Active Directory, creating domain admin and user accounts, and managing access within a secure domain environment. The goal is to ensure proper user management and secure access across systems using Active Directory services.
 
-## Active Directory Domain Services
-- Login to DC-1 and install Active Directory Domain Services
-<p align="center">
-  <img src="https://i.imgur.com/SWXkR0v.png" alt="Image 1" width="45%"/>  
-</p>
-- Promote as a DC: Setup a new forest as `mydomain.com` (can be anything, just remember what it is).
-<p align="center">
-  <img src="https://i.imgur.com/FUkZou6.png" alt="Image 1" width="45%"/>  
-</p>
-- Restart and then log back into DC-1 as user: `mydomain.com\labuser`.
-<p align="center">
-  <img src="https://i.imgur.com/TuI71lr.png" alt="Image 1" width="45%"/>  
-</p>
+
 
 ## Create a Domain Admin user within the domain
 - In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES” and “_ADMINS”.
